@@ -11,6 +11,10 @@
 		07FD47332B67CF72000E8E3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD47322B67CF72000E8E3F /* ContentView.swift */; };
 		07FD47352B67CF73000E8E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FD47342B67CF73000E8E3F /* Assets.xcassets */; };
 		07FD47382B67CF73000E8E3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FD47372B67CF73000E8E3F /* Preview Assets.xcassets */; };
+		07FD47412B67CFD9000E8E3F /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD47402B67CFD9000E8E3F /* Restaurant.swift */; };
+		07FD47432B67D70A000E8E3F /* EditRestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD47422B67D70A000E8E3F /* EditRestaurantView.swift */; };
+		07FD47452B67DD67000E8E3F /* RestaurantListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD47442B67DD67000E8E3F /* RestaurantListingView.swift */; };
+		07FD47472B67E2D2000E8E3F /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD47462B67E2D2000E8E3F /* Dish.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		07FD47322B67CF72000E8E3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		07FD47342B67CF73000E8E3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07FD47372B67CF73000E8E3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07FD47402B67CFD9000E8E3F /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		07FD47422B67D70A000E8E3F /* EditRestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRestaurantView.swift; sourceTree = "<group>"; };
+		07FD47442B67DD67000E8E3F /* RestaurantListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListingView.swift; sourceTree = "<group>"; };
+		07FD47462B67E2D2000E8E3F /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				07FD47302B67CF72000E8E3F /* GustoApp.swift */,
-				07FD47322B67CF72000E8E3F /* ContentView.swift */,
+				07FD473E2B67CF90000E8E3F /* Views */,
+				07FD473F2B67CF94000E8E3F /* Model */,
 				07FD47342B67CF73000E8E3F /* Assets.xcassets */,
 				07FD47362B67CF73000E8E3F /* Preview Content */,
 			);
@@ -65,6 +74,25 @@
 				07FD47372B67CF73000E8E3F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07FD473E2B67CF90000E8E3F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				07FD47322B67CF72000E8E3F /* ContentView.swift */,
+				07FD47442B67DD67000E8E3F /* RestaurantListingView.swift */,
+				07FD47422B67D70A000E8E3F /* EditRestaurantView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		07FD473F2B67CF94000E8E3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07FD47402B67CFD9000E8E3F /* Restaurant.swift */,
+				07FD47462B67E2D2000E8E3F /* Dish.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				07FD47332B67CF72000E8E3F /* ContentView.swift in Sources */,
+				07FD47432B67D70A000E8E3F /* EditRestaurantView.swift in Sources */,
 				07FD47312B67CF72000E8E3F /* GustoApp.swift in Sources */,
+				07FD47472B67E2D2000E8E3F /* Dish.swift in Sources */,
+				07FD47452B67DD67000E8E3F /* RestaurantListingView.swift in Sources */,
+				07FD47412B67CFD9000E8E3F /* Restaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
